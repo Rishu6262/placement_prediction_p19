@@ -14,7 +14,7 @@ with open("model.pkl", "rb") as f:
     data = pickle.load(f)
 
 model = data["model"]
-scaler = data["scaler"]
+
 
 # ---------------- TITLE ----------------
 st.markdown(
@@ -104,3 +104,4 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
