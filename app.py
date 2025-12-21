@@ -11,9 +11,8 @@ st.set_page_config(
 
 # ---------------- LOAD MODEL ----------------
 with open("model.pkl", "rb") as f:
-    data = pickle.load(f)
+    model = pickle.load(f)
 
-model = data["model"]
 
 
 # ---------------- TITLE ----------------
@@ -104,4 +103,5 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
