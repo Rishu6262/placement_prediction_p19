@@ -11,13 +11,10 @@ st.set_page_config(
 
 # ---------------- LOAD MODEL ----------------
 with open("model.pkl", "rb") as f:
-    model = pickle.load(f)
-    scaler = model["scaler"]
+    data = pickle.load(f)
 
-
-input_scaled = scaler.transform(input_data)
-prediction = model.predict(input_scaled)[0]
-
+model = data["model"]
+scaler = data["scaler"]
 
 # ---------------- TITLE ----------------
 st.markdown(
@@ -81,10 +78,9 @@ if st.button("🔍 Predict Placement Status", use_container_width=True):
         ssc,
         hsc
     ]])
+
     input_scaled = scaler.transform(input_data)
     prediction = model.predict(input_scaled)[0]
-    
-
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -108,10 +104,3 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
-
-
-
-
-
-
-
