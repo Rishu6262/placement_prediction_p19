@@ -12,7 +12,7 @@ st.set_page_config(
 # ---------------- LOAD MODEL ----------------
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
-    scaler = data["scaler"]
+    scaler = model["scaler"]
 
 
 input_scaled = scaler.transform(input_data)
@@ -108,6 +108,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
