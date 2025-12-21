@@ -10,8 +10,11 @@ st.set_page_config(
 )
 
 # ---------------- LOAD MODEL ----------------
+import pickle
+
 with open("model.pkl", "rb") as f:
     model = pickle.load(f)
+
 
 
 
@@ -103,6 +106,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
