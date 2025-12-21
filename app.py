@@ -77,8 +77,8 @@ if st.button("🔍 Predict Placement Status", use_container_width=True):
         hsc
     ]])
 
-    input_scaled = scaler.transform(input_data)
-    prediction = model.predict(input_scaled)[0]
+        prediction = model.predict(input_data)[0]
+
 
     st.markdown("<hr>", unsafe_allow_html=True)
 
@@ -102,5 +102,6 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
