@@ -1,6 +1,5 @@
-streamlit>=1.28
-scikit-learn>=1.0
+streamlit
 numpy
 pandas
-
+scikit-learn
 
