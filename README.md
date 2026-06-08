@@ -286,33 +286,12 @@ in real time.
 
 ---
 
-# ▶️ Run Locally
-
-### Clone Repository
-
-```bash
-git clone https://github.com/yourusername/student-placement-prediction.git
-```
-
-### Navigate to Project Folder
-
-```bash
-cd student-placement-prediction
-```
-
-### Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 ### Run Application
 
 ```bash
 streamlit run app.py
 ```
-
----
 
 # 📦 Requirements
 
