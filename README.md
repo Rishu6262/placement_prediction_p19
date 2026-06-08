@@ -347,7 +347,7 @@ Actual placement outcomes may vary depending on interview performance, technical
 
 **Rishu Gurjar**
 
-Aspiring Data Scientist | Machine Learning Enthusiast | Python Developer
+Aspiring Data Science | Machine Learning Enthusiast | Python Developer
 
 ### Skills
 
@@ -359,3 +359,8 @@ Aspiring Data Scientist | Machine Learning Enthusiast | Python Developer
 * Scikit-Learn
 
 Connect with me on LinkedIn and GitHub to explore more Data Science and Machine Learning projects.
+
+## Conclusion
+
+This project demonstrates how Machine Learning can be used to predict student placement outcomes based on academic performance, skills, internships, projects, and certifications. By comparing multiple algorithms such as Logistic Regression, Decision Tree, Random Forest, and K-Nearest Neighbors (KNN), the system provides accurate predictions and valuable insights into the factors that influence student employability.
+
